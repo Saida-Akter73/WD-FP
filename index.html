@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-1 (Registration-Form)</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="all">
+</head>
+<body>
+    <h2>What is HTML?</h2>
+    <p>HTML, which stands for HyperText Markup Language, is the standard markup language used to create the structure and content of web pages, defining how text, images, and other content are displayed in a web browser.</p>
+    <br>
+    <br>
+    <h2>Nature Picture(Link with image)</h2>
+    <a href="https://www.dreamstime.com/photos-images/nature.html" target="_blank">
+        <img src="gallery/image/nature.jpg" alt="Nature Picture">
+    </a>
+    <a href="https://www.dreamstime.com/photos-images/nature.html" target="_blank">
+        <img src="gallery/image/nature.jpg" alt="Nature Picture">
+    </a>
+    <a href="https://www.dreamstime.com/photos-images/nature.html" target="_blank">
+        <img src="gallery/image/nature.jpg" alt="Nature Picture">
+    </a>
+    <a href="https://www.dreamstime.com/photos-images/nature.html" target="_blank">
+        <img src="gallery/image/nature.jpg" alt="Nature Picture">
+    </a>
+    <br>
+    <br>
+    <h2>Hover</h2>
+    <div class="box">
+        <div class="text">
+            <p>About Nature</p>
+            <span>Nature is the ultimate source of our living. Both living and non-living things include nature, and everyone is interdependent, which helps maintain the ecosystem. Plants, animals, and humans all depend on nature for their survival. It supplies oxygen, sunlight, soil, water, and other necessary components.</span>
+
+        </div>
+    </div>
+    <br>
+    <br>
+    <h2>IFrame Tag</h2>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OOhNmskVbQw?si=9DUg5ipf0CbUuMJw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br>
+    <br>
+    <h2>Nature Sound (Audio Tag)</h2>
+    <audio src="gallery/audio/mixkit-sea-waves-with-birds-loop-1185.wav" type="audio/mp3" controls></audio>
+    <br>
+    <br>
+    <h2>Nature Video (Video Tag)</h2>
+    <video src="gallery/video/153976-817104245_small.mp4" type="video/mp4" controls></video>
+    <br>
+    <br>
+    <h2>List of Vehicles (Order List)</h2>
+    <ol type="I">
+        <li>Cars</li>
+        <li>Trucks</li>
+        <li>Buses
+            <ol type="a">
+                <li>Regular Bus</li>
+                <li>Mini Bus</li>
+                <li>School Bus</li>
+            </ol>
+        </li>
+        <li>Bicycles</li>
+        <li>Bike</li>
+    </ol>
+    <br>
+    <br>
+    <h2>List of Vehicles (Unorder List)</h2>
+    <ul type="square">
+        <li>Cars</li>
+        <li>Trucks</li>
+        <li>Buses</li>
+        <li>Bicycles</li>
+        <li>Bike</li>
+    </ul>
+    <br>
+    <br>
+    <h2>Table of Students (Table Tag)</h2>
+    <table border="3">
+        <tr>
+            <th rowspan="2">ID</th>
+            <th colspan="2">Name</th>
+            <th rowspan="2">Gender</th>
+        </tr>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+        </tr>
+        <tr>
+            <td>1201</td>
+            <td>Roni</td>
+            <td>Rahman</td>
+            <td rowspan="2">Male</td>
+        </tr>
+        <tr>
+            <td>1202</td>
+            <td>Toni</td>
+            <td>Rahman</td>
+
+        </tr>
+        <tr>
+            <td>1301</td>
+            <td>Sumi</td>
+            <td>Rahman</td>
+            <td rowspan="2">Female</td>
+        </tr>
+        <tr>
+            <td>1302</td>
+            <td>Rumi</td>
+            <td>Rahman</td>
+
+        </tr>
+    </table>
+    <br>
+    <br>
+    <h2>Registration-Form (form Tag)</h2>
+    <div class="Registration_Form">
+        <form action="">
+            <h3>Registration-Form</h3>
+            <label for="user name">User Name</label>
+            <input type="text" id="user name" placeholder="Enter your name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter your password" required>
+            <label for="phone number">Phone Number</label>
+            <input type="number" id="phone number" placeholder="Enter your phone number" required>
+            <label for="SBG">Select Blood Group</label>
+            <select name="" id="SBG">
+                <option>Blood Group</option>
+                <option>A+</option>
+                <option>B+</option>
+                <option>AB+</option>
+                <option>O+</option>
+                <option>A-</option>
+                <option>B-</option>
+                <option>AB-</option>
+                <option>O-</option>
+            </select>
+        <div class="Gender">
+            <h3>Select Gender</h3>
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+            <!-- <br> -->
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label>
+        </div>
+            <button>Registration</button>
+            <h4>
+                If you are registered member please <a href="login.html"> Login Here</a>
+            </h4>
+        </form>
+    </div>
+    
+
+    
+</body>
+</html>

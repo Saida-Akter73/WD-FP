@@ -1,0 +1,185 @@
+h2{
+    text-align: center;
+    background-color: #e3b1fd;
+    color: black;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2:hover{
+    background-color: red;
+}
+p{
+    background-color: #fdb1b4;
+    color: black;
+    margin: 0 auto;
+    font-size: 18px;
+}
+p:hover{
+    background-color: red;
+}
+a img{
+    height: 300px;
+    width: 320px;
+    margin: 3px;
+    /* padding: 0; */
+    background-size: cover;
+}
+.box{
+    background-image: url(gallery/image/waterfall.jpg);
+    height: 300px;
+    width: 500px;
+    background-size: cover;
+    margin: auto;
+    padding-top: 10px;
+    margin-top: 10px;
+    position: relative;
+}
+.text{
+    border: 3px solid #1e8a6e;
+    height: 250px;
+    width: 450px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+
+}
+.text p{
+    background-color: #d1b1fd;
+    font-size: 25px;
+    
+}
+.text span{
+    font-size: 20px;
+}
+.text p,span{
+    color: #e12ce9;
+    text-align: center;
+}
+.box:hover .text{
+     opacity: 1;
+}
+iframe{
+    padding-top: 10px;
+    margin: auto;
+    height: 300px;
+    width: 500px;
+    display: block;
+}
+audio{
+    margin: auto;
+    display: block;
+    padding-top: 10px;
+}
+audio:hover{
+    background-color: #fdb1b4;
+}
+video{
+    margin: auto;
+    height: 300px;
+    width: 500px;
+    padding: 0;
+    display: block;
+    background-size: cover;
+}
+ol{
+    color: #36115a;
+    display: block;
+    
+}
+ol:hover{
+    color: #7c3224;
+    background-color: #fdb1b4;
+}
+ol ol{
+    color: #a4351e;
+   display: none;
+}
+ol li:hover ol{
+    color: #1e2fa4 ;
+    background-color: #d6f4f4 ;
+    display: block;
+}
+ul{
+    color: #36115a;
+    display: block;
+    
+}
+ul:hover{
+    color: #7c3224;
+    background-color: #fdb1b4;
+}
+table{
+    width: 500px;
+    margin: auto;
+    margin-top: 10px;
+    border-color: #6d3f1a;
+    border-collapse: collapse;
+
+}
+table tr th{
+    font-size: 25px;
+    color: #161f5e;
+    background-color: #b3bbfc;
+}
+table tr td{
+    font-size: 20px;
+    color: #36165e;
+    background-color: #d0affa;
+    text-align: center;
+}
+table:hover  tr th td{
+    background-color: #f7bcb1;
+    color: #6a1e11 ;
+}
+.Registration_Form{
+    background-color: #c5acfe;
+    margin: auto;
+    text-align: center;
+    width: 600px;
+    padding: 15px;
+    margin-top: 10px;
+}
+.Registration_Form form h3{
+    font-size: 25px;
+}
+.Registration_Form form h4{
+    font-size: 18px;
+}
+.Registration_Form form label{
+    display: block;
+    font-size: 20px;
+    color: ;
+}
+.Registration_Form form input{
+    /* display: block; */
+    width: 500px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    color: #1e8a6e;
+    border: #36165e;
+}
+.Registration_Form .Gender label{
+    /* margin: auto;
+    margin-right: 0;
+    float: left; */
+    padding-top: 0;
+    margin: 0;
+}
+.Registration_Form .Gender input{
+    margin: 0 auto;
+    margin-left: 0;
+    padding-top: 0;
+    float: none;
+}
+.Registration_Form button{
+    margin: 10px;
+    font-size: 18px;
+}
+
+
